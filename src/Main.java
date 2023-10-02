@@ -1,6 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Салам Ильгиз ю");
+        String value = "ww";
+        chV(value);
+        System.out.println(value);
 
+    }
+
+    public static void chV(String value) {
+        value = "eea";
     }
 }
